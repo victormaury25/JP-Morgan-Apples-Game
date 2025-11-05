@@ -24,8 +24,13 @@ It was specified that the German prices follow a **Random Walk process**, while 
 - Go **long** if the predicted UK price is higher than today's price.
 - Go **short** if the predicted UK price is lower than today's price.
 
-> **WARNING** This strategy is probabilistic and may be highly volatile. Some periods may generate significant gains, while others may result in losses.
+> **WARNING** This strategy is probabilistic and may be highly volatile. Some periods may generate significant gains, while others may result in losses. Running the simulation multiple times may result in very different outcomes.
 
+## Future Work
+- Extend strategy to trade on the spread rather than just predicted price direction.  
+- Implement hedging strategies using estimated OU and Random Walk parameters.  
+- Explore risk-adjusted position sizing and volatility control.
+  
 ## Usage
 1. Clone the repository.
 2. Ensure the `apples_exercise.csv` file is in the same folder as the notebook.
