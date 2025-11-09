@@ -1,4 +1,4 @@
-# JP-Morgan Apples Game
+# JP-Morgan Apples Game 
 
 This project is a challenge organized by the JPM ATS team at Imperial College on 29/10/2025. The goal was to predict the price of UK Apples using the price of German Apples and the EUR/GBP exchange rate, and to implement a trading strategy based on these predictions.
 
